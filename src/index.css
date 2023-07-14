@@ -252,3 +252,63 @@ i {
   transition: opacity 200ms;
   transition-delay: 200ms;
 }
+
+#name{
+  font-weight: 900;
+  color: #f44250;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+#comics{
+  font-weight: 900;
+  color: #482db7;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+#series{
+  font-weight: 900;
+  color: #48cd18;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+#stories{
+  font-weight: 900;
+  color: #878e02;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+#events{
+  font-weight: 900;
+  color: #039fc2;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+#list{
+  border:1px solid black;
+  border-radius: 30px;
+  padding: 0px 16px 16px 16px;
+  background-color: #e9e9e9;
+  margin-top: 16px;
+}
+
+#ListLink{
+  margin-top: 16px;
+}
+
+
+.ListLink {
+  margin-top: 16px;
+}
+
+.logoList {
+  height: 100px
+}
+
+.logoDetail {
+  width: 100%;
+}

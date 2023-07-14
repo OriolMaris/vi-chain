@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { BasicArrayResponse, ListLinkI } from '../interfaces/hero'
 
-const ListLink = ({ text, list }: ListLinkI) => {
+const ListLink = ({ text, list, id, style }: ListLinkI) => {
   return (
-    <>
-      <p>
+    <div id="list" style={style}>
+      <p id={id}>
         <b>{text}</b>
       </p>
       {list?.map((serie: BasicArrayResponse, key: number) => {
@@ -16,7 +16,7 @@ const ListLink = ({ text, list }: ListLinkI) => {
           </div>
         )
       })}
-    </>
+    </div>
   )
 }
 

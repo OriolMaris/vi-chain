@@ -35,4 +35,6 @@ export interface HerosListI {
 export interface ListLinkI {
   text: string
   list: BasicArrayResponse[]
+  id?: string
+  style?: React.CSSProperties | undefined
 }

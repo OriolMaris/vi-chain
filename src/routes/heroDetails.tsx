@@ -18,10 +18,26 @@ export default function HeroDetails() {
         hero && (
           <>
             <HeroBasicData hero={hero} />
-            <ListLink text="Comics" list={hero?.comics?.items}></ListLink>
-            <ListLink text="Series" list={hero?.series?.items}></ListLink>
-            <ListLink text="Stories" list={hero?.stories?.items}></ListLink>
-            <ListLink text="Events" list={hero?.events?.items}></ListLink>
+            <ListLink
+              text="Comics"
+              id="comics"
+              list={hero?.comics?.items}
+            ></ListLink>
+            <ListLink
+              text="Series"
+              id="series"
+              list={hero?.series?.items}
+            ></ListLink>
+            <ListLink
+              text="Stories"
+              id="stories"
+              list={hero?.stories?.items}
+            ></ListLink>
+            <ListLink
+              text="Events"
+              id="events"
+              list={hero?.events?.items}
+            ></ListLink>
           </>
         )
       )}
